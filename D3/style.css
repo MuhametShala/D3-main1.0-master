@@ -1,0 +1,116 @@
+body{
+
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e3e0e0;
+}
+
+#corpodue{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* header */
+
+#logo{
+
+    background-color: #222f3e;
+}
+
+.amazon{
+
+    margin-left: 3%;
+}
+
+/* barra navigazione */
+
+#barranav {
+
+    background-color: #354758;
+    overflow: hidden;
+    z-index: 1000;
+    display: block;
+
+}
+
+.linkbarra {
+
+    float: left;
+    color:#fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #354758;
+}
+
+.linkbarra :hover {
+
+    background-color: #354758;
+    color: #fff;
+    
+}
+
+/* titolo arancio */
+
+.orangetitle {
+    color: #fff;
+    background-color: #f07d19;
+    padding: 10px 10px;
+    height: 80%;
+    text-align: center;
+}
+
+/*container_1 e h1 */
+
+#container_1{
+
+    background-image: url("/D3/assets/bg-image.png");
+    text-align: center;
+
+}
+
+.titolo{
+
+    padding: 2em;
+    color:#fff;
+    
+}
+
+.acapo{
+
+    font-size: large;
+    
+}
+
+/* immagini affiancate */
+
+#container_2{
+
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+.affianco{
+    float: left;
+    display: block;
+    width: 300px;
+    height: 400px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.centro{
+    width: 90%;
+    height: 90%;
+    border-radius: 5%;
+    box-shadow: 5px 5px 10px 1px #969595;
+}
+
+.position{
+    position: absolute
+}
+
