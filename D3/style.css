@@ -10,6 +10,7 @@ body{
     margin-right: 5%;
 }
 
+
 /* header */
 
 #logo{
@@ -118,18 +119,62 @@ body{
 
 }
 
-/* vr immagine */
+/* vr immagine e scrivania */
 
 #centroimg{
 
-    height: 400px;
+    height: auto;
     width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
 }
 
-.vr{
+.vr_scrivania{
 
     height: 100%;
     width: 100%;
 }
 
+#centroimg p{
+
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+}
+
+.spancolor{
+
+    color: #017185
+}
+
+/* link torna su */
+
+.tornasu{
+
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    background-color: #354758;
+    margin: 0;
+
+}
+
+.tornasu a{
+    color: #fff;
+}
+
+/* footer */
+
+#fine{
+    background-color: #222f3e;
+    text-align: center;
+}
+
+#fine img{
+    padding: 50px;
+    height: 60px;
+}
