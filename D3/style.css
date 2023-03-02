@@ -95,7 +95,7 @@ body{
 
 
 .affianco{
-    float: left;
+    float: center;
     display: block;
     width: 300px;
     height: 400px;
@@ -111,6 +111,25 @@ body{
 }
 
 .position{
+
+    font-weight: bold;
     position: absolute;
+    margin-left: 20px;
+
+}
+
+/* vr immagine */
+
+#centroimg{
+
+    height: 400px;
+    width: 100%;
+
+}
+
+.vr{
+
+    height: 100%;
+    width: 100%;
 }
 
